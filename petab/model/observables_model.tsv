@@ -1,0 +1,11 @@
+observableId	observableName	observableFormula	observableTransformation	noiseFormula	noiseDistribution
+GSH_obs	GSH_obs	observableParameter1_GSH_obs*Gsh+observableParameter2_GSH_obs	log	1	normal
+Keap1_free	Keap1_free	Keap1/(Keap1Nrf2+Keap1P62)	lin	1	normal
+KEAP1_obs	KEAP1_obs	observableParameter1_KEAP1_obs*mKeap1+0	log	1	normal
+Keap1P62_obs	Keap1P62_obs	observableParameter1_Keap1P62_obs*aKeap1P62+observableParameter2_Keap1P62_obs	log	1	normal
+NFE2L2_obs	NFE2L2_obs	observableParameter1_NFE2L2_obs	log	1	normal
+Nrf2_obs	Nrf2_obs	observableParameter1_Nrf2_obs*nNrf2+observableParameter2_Nrf2_obs	log	1	normal
+P62_bound	P62_bound	Keap1P62/P62	lin	1	normal
+SQSTM1_obs	SQSTM1_obs	observableParameter1_SQSTM1_obs*mP62+0	log	1	normal
+Srxn1_obs	Srxn1_obs	observableParameter1_Srxn1_obs*Srxn1+observableParameter2_Srxn1_obs	log	1	normal
+SRXN1_obs	SRXN1_obs	observableParameter1_SRXN1_obs*mSrxn1+0	log	1	normal
